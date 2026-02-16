@@ -11,7 +11,7 @@ A web application to track all the places I have been. Each place has a location
 2. Open `index.html` in a browser
 
 ## Live URL
-[https://davidmusyoka1-ship-it.github.io/places-youve-been-new/](#)
+https://davidmusyoka1-ship-it.github.io/places-youve-been-new/
 
 ## License
 MIT License
