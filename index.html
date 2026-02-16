@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Places I've Been</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Places I've Been</h1>
+    <p>Keep track of all the amazing places you've visited!</p>
+  </header>
+
+  <main>
+    <section id="addPlace">
+      <h2>Add a New Place</h2>
+      <form id="placeForm">
+        <input type="text" id="location" placeholder="Location" required>
+        <input type="text" id="landmark" placeholder="Landmark" required>
+        <input type="text" id="season" placeholder="Season" required>
+        <input type="text" id="notes" placeholder="Notes" required>
+        <button type="submit">Add Place</button>
+      </form>
+    </section>
+
+    <section id="myPlaces">
+      <h2>My Places</h2>
+      <ul id="placesList"></ul>
+      <div id="placeDetails">
+        <!-- Place details appear here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 David Musyoka</p>
+  </footer>
+
+  <!-- JS scripts must load in this order -->
+  <script src="js/places.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
